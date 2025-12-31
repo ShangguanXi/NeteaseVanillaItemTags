@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "1",
+		"description": "1 Behavior Pack",
+		"uuid": "f0428a28-8d91-4b67-8115-7f8d27537320",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 18, 0]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "21a2460b-929a-47c8-bb21-9d72d8d05fe2",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "14f28c0d-dd1d-4a9d-b439-339926847adc",
+			"version": [1, 0, 0]
+		}
+	]
+}

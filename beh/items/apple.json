@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.apple.name"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": 0.3
+      },
+      "minecraft:icon": "apple",
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_food", //原版tag
+          "minecraft:apple"  //新增tag
+        ]
+      }
+    },
+    "description": {
+      "identifier": "minecraft:apple"
+    }
+  }
+}
